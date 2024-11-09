@@ -12,9 +12,12 @@ public class CConverterApp {
         
         
         //백만원을 달러로 출력
-
+		CConverter.toDoller(1000000);
+		CConverter.toString();
         
         //100달러를 원으로 출력
+		CConverter.toWon(100);
+		CConverter.toString();
         
         
     }
