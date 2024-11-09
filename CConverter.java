@@ -16,5 +16,8 @@ public class CConverter {
         return dollar * rate;
     }
     
-
+	public void toString(){
+		System.out.println("백만원은 " + this.toDoller + "달러입니다.");
+		System.out.println("백달러는 " + this.toKRW + "입니다." );
+	}
 }
